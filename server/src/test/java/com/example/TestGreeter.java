@@ -22,6 +22,8 @@ public class TestGreeter {
     String someone = "World";
 	// change one
 	String name1 = "Michael";
+  // change two
+  String name2 = "Dennis";
     assertThat(greeter.greet(someone), containsString(someone));
   }
 
